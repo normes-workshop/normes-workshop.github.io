@@ -11,23 +11,6 @@ changes reach `main`. There is one shared template and no local setup is needed.
 | `template/default.html` | Shared HTML and CSS |
 | `_config.yml` | Jekyll configuration |
 
-## Publish once
-
-1. Create the GitHub organisation `normes-workshop` and a public repository
-   owned by it named **`normes-workshop.github.io`**.
-2. Put the contents of this folder at the repository root on `main`.
-   `_config.yml`, `pages/`, `template/` and `files/` should be directly inside
-   the repository, not inside an extra `normes-workshop/` folder.
-3. In **Settings → Pages**, select **Deploy from a branch**, then **main**
-   and **/ (root)**, and save.
-4. Give colleagues who edit the site write access to the repository.
-
-GitHub builds and publishes the site at <https://normes-workshop.github.io/>.
-Publication can take up to ten minutes. Later commits to `main` publish
-automatically. If publication fails, check the repository's **Actions** tab.
-
-The starter contains placeholder text. Replace it before announcing the site.
-
 ## Edit a page
 
 Open a file in `pages/` on GitHub, click the pencil icon, edit it, and commit
