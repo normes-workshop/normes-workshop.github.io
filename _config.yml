@@ -1,0 +1,17 @@
+title: "NORMES workshops"
+url: "https://normes-workshop.github.io"
+baseurl: ""
+
+layouts_dir: template
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - template
