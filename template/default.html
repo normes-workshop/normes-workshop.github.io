@@ -71,22 +71,33 @@
       code { font-size: 0.9em; }
       hr { border: 0; border-top: 1px solid #aaa38d; }
 
-      .funders {
+      .funders,
+      .funders p {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: center;
         gap: 1.5rem;
+      }
+
+      .funders {
         margin-top: 1.5rem;
+        overflow-x: auto;
       }
 
       .funders p {
         margin: 0;
+        flex-shrink: 0;
+      }
+
+      .funders a {
+        flex-shrink: 0;
       }
 
       .funders img {
+        display: block;
         height: 3rem;
         width: auto;
-        object-fit: contain;
+        max-width: none;
       }
     </style>
   </head>
