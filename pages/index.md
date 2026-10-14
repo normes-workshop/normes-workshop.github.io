@@ -8,5 +8,6 @@ Created four years ago, the **NORMES group** (successor to a previous multidisci
 ## Editions
 
 - [2026, Bologna](/2026/)
+- 2025, Paris
 - 2024, Créteil
 - [2023, Lyon](https://facdephilo.univ-lyon3.fr/colloque-les-interfaces-logique-informatique-droit-horizons-philosophiques)
